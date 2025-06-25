@@ -4,7 +4,7 @@ import {NavLink} from "react-router-dom";
 function Nav() {
     return(
         <div className="nav-container">
-                <p className="logo">Sneaker Showcase</p>
+                <a className="logo" href="/">Sneaker Showcase</a>
                 <ul className="nav-links">
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>

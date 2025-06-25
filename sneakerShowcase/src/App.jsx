@@ -19,4 +19,8 @@ function App() {
     );
 }
 
+// TODO 1: Change map() method from Card component to Home.jsx and add PropTypes so that the component is more reusable
+// TODO 2: Add ShoePage functionality
+// TODO 3: Check styling
+
 export default App

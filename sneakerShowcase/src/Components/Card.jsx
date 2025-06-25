@@ -11,7 +11,7 @@ function Card() {
     return(
         <div className='card-container'>
             {data.map(item => (
-                <Link to={`/shoe/${item.id}`}>
+                <Link to={`/shoe/${item.id}`} style={{textDecoration: 'none', color: 'inherit'}}>
                     <div className="card-wrapper" key={item.sneakerName}>
                         <img className="shoe-img" src={item.shoeImg} alt={item.sneakerName} />
                         <p className="brand-name">{item.brandName}</p>
