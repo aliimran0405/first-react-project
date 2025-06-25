@@ -1,1 +1,98 @@
+/* GLOBAL STYLES */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+/* GLOBAL STYLES */
+
+Link {
+    text-decoration: none;
+}
+
+.nav-container {
+    width: 100%;
+    background-color: hsl(0, 0%, 0%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+    flex: 1;
+    text-align: left;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    justify-content: center;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-spacer {
+    flex: 1;
+}
+
+
+h1 {
+    font-size: 3rem;
+    padding-left: 40px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* CARD STYLES BEGIN*/
+.card-container {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    
+}
+
+.card-wrapper {
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 80%);
+    margin: 10px;
+    max-width: 250px;
+    display: inline-block;
+}
+
+.card-wrapper:hover {
+    background-color: hsl(0, 0%, 90%);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.card-container .shoe-img {
+    width: 100%;
+    height: 40vh;
+}
+
+.card-container .brand-name, .card-container .sneaker-name {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.card-container .brand-name {
+    font-weight: bold;  
+}
+
+.card-container .sneaker-name {
+    padding-bottom: 10px;
+}
+/* CARD STYLES END */
 
