@@ -1,7 +1,8 @@
 import { data } from '../Data';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types'
 
-function Card() {
+function Card(props) {
 
     // const listItems = data.map(d => <><img src={d.shoeImg}/>
     //                                 <p className='brand-name'>{d.brandName}</p>
@@ -9,18 +10,25 @@ function Card() {
     // );
 
     return(
-        <div className='card-container'>
-            {data.map(item => (
-                <Link to={`/shoe/${item.id}`} style={{textDecoration: 'none', color: 'inherit'}}>
-                    <div className="card-wrapper" key={item.sneakerName}>
-                        <img className="shoe-img" src={item.shoeImg} alt={item.sneakerName} />
-                        <p className="brand-name">{item.brandName}</p>
-                        <p className="sneaker-name">{item.sneakerName}</p>
+       
+            
+                <Link to={`/shoe/${props.id}`} style={{textDecoration: 'none', color: 'inherit'}}>
+                    <div className="card-wrapper" key={props.sneakerName}>
+                        <img className="shoe-img" src={props.shoeImg} alt={props.sneakerName} />
+                        <p className="brand-name">{props.brandName}</p>
+                        <p className="sneaker-name">{props.sneakerName}</p>
                     </div>
                 </Link>
-            ))}
-        </div>
+            
+        
     );
+}
+
+Card.propTypes = {
+    id: PropTypes.number,
+    sneakerName: PropTypes.string,
+    shoeImg: PropTypes.string,
+    brandName: PropTypes.string,
 }
 
 export default Card
