@@ -2,6 +2,7 @@ import { data } from '../Data';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types'
 
+
 function Card(props) {
 
     // const listItems = data.map(d => <><img src={d.shoeImg}/>
@@ -25,7 +26,7 @@ function Card(props) {
 }
 
 Card.propTypes = {
-    id: PropTypes.number,
+    id: PropTypes.string,
     sneakerName: PropTypes.string,
     shoeImg: PropTypes.string,
     brandName: PropTypes.string,

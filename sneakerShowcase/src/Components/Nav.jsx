@@ -1,7 +1,10 @@
-import {NavLink} from "react-router-dom";
+import React, { useState} from "react";
+import { data } from "./../Data";
 
 
-function Nav() {
+function Nav(props) {
+        
+
     return(
         <div className="nav-container">
                 <a className="logo" href="/">Sneaker Showcase</a>
