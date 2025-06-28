@@ -9,7 +9,7 @@ function About() {
                       </p>;
     const developerText = <p>This simple <i>"front end only"</i> project is my first web-application built with React in my journey of becoming a full-stack developer using <u>industry standard</u> tools. The project demonstrates the use of 
                             core concepts of React such as JSX, Components, Routing, Stateful Variables and React Hooks. As this project demonstrates the basic concepts of React, I will be delving deeper into this JavaScript library and also explore Backend server handling in future projects.<br/><br/>
-                            Please note that the "mens" and "womens" navbar buttons are purely aesthetic.
+                            Please note that the "mens" and "womens" navbar buttons are purely aesthetic, and that this web-application is only optimized for desktop devices only.
                           </p>;
     
 
