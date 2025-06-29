@@ -22,7 +22,7 @@ function ShoePage() {
                     </div>
                     <div className="description">
                         <p className="description-text">{curSneaker.description}</p>
-                        <a href="">Show official {curSneaker.brandName} store</a>
+                        <a href={curSneaker.link} target="_blank">See official {curSneaker.brandName} store</a>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function About() {
+
+    useEffect(() => {
+        document.title = "About";
+    }, []);
 
     const [isAbout, setIsAbout] = useState(true);
     

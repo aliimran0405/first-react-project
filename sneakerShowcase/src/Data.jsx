@@ -110,5 +110,62 @@ export const data = [
         description: "From a walk in the park to a weekend run with friends, these adidas Ultraboost 1.0 shoes are designed to keep you comfortable. An adidas PRIMEKNIT upper gently hugs your feet while BOOST on the midsole cushions from the first step to the last mile. The Stretchweb outsole flexes naturally for an energized ride, and Continental™ Rubber gives you the traction you need to keep that pep in your step",
         link: "https://www.adidas.com/us/ultraboost-1.0-shoes/JS1254.html"
     },
+    {
+        id: "11",
+        images: {
+            shoeImg: "/assets/mostro_og_prime.webp",
+            mainImg: "/assets/11-m.webp",
+        },
+        brandName: "Puma",
+        sneakerName: "Mostro OG Prime",
+        description: "For over two decades, Mostro has been worn by those who defy conventions and eschew the norm. Taking its name from the Italian word for monster, Mostro is a hybrid creation with a sleek, sculptural shape and spiked sole. This bold new drop is a statement piece, the final touch to pull the look together, ready for wherever the night leads",
+        link: "https://us.puma.com/us/en/pd/mostro-og-prime-sneakers/403206?swatch=04"
+    },
+    {
+        id: "12",
+        images: {
+            shoeImg: "/assets/speedcat_og.webp",
+            mainImg: "/assets/12-m.webp",
+        },
+        brandName: "Puma",
+        sneakerName: "Speedcat OG",
+        description: "An icon of racing culture, the PUMA Speedcat has been synonymous with speed, precision, and unparalleled performance for over 25 years. It originated as a fireproof Formula 1® footwear style, but over the decades it found itself on a new circuit - transcending the tracks of Monaco for the streets of global fashion capitals. Wrapped in soft suede and premium leather, this silhouette is reissued in its original red and black colorways with a new PUMA Cat Logo at the front.",
+        link: "https://us.puma.com/us/en/pd/speedcat-og-sneakers/398846?swatch=02"
+    },
+    {
+        id: "13",
+        images: {
+            shoeImg: "/assets/volataic_evo.webp",
+            mainImg: "/assets/13-m.webp",
+        },
+        brandName: "Puma",
+        sneakerName: "Voltaic Evo",
+        description: "he all-new Voltaic Evo is designed for the trainer who wants comfort and traction without sacrificing style. The Voltaic features a midsole with PUMA's 10 Cell technology and an outsole designed with full length rubber coverage. It's time to make your mark",
+        link: "https://us.puma.com/us/en/pd/voltaic-evo-mens-training-shoe/379601?swatch=18"
+    },
+    {
+        id: "14",
+        images: {
+            shoeImg: "/assets/rs-x_suede_multi.webp",
+            mainImg: "/assets/14-m.webp",
+        },
+        brandName: "Puma",
+        sneakerName: "RS-X Suede Multi",
+        description: "Back in the '80s, the original RS (short for “running system”) was PUMA's innovative cushioning technology. Today, the RS has reinvented itself in the RS-X, featuring a bulky design and fresh material mixes. The RS-X Suede Multi shows off with a suede overlay, a sizeable silhouette and RS-X branding.",
+        link: "https://us.puma.com/us/en/pd/rs-x-suede-multi-sneakers/398575?swatch=01"
+    },
+    {
+        id: "15",
+        images: {
+            shoeImg: "/assets/inverse_upgrade_stealth.webp",
+            mainImg: "/assets/15-m.webp",
+        },
+        brandName: "Puma",
+        sneakerName: "Inverse Upgrade Stealth",
+        description: "Rooted in our archive & powered by innovation, the Inverse encapsulates the essence of pushing boundaries. With the aim to bridge the human experience with experimental technology, we captured the features of our artifacts and refined them with a Profoam Lite midsole for step-in comfort and leather and suede overlay detailing.",
+        link: "https://us.puma.com/us/en/pd/inverse-upgrade-stealth-mens-sneakers/401754?swatch=01"
+    },
+    
+    
 
 ];
