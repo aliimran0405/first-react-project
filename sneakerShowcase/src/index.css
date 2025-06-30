@@ -180,7 +180,9 @@ h1 {
 }
 
 .about-text-area p {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     font-size: 1.4rem;
     padding: 10px;
 }
